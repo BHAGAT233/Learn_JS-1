@@ -65,7 +65,3 @@
 // let n = input.questionInt('enter the value: ')
 
 
-// let a = (n*n)**0.5;
-// console.log(a);
-
-
