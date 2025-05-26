@@ -43,9 +43,9 @@
 // // let d = 2;
 
 // while(c<=b){
-//     console.log(`${c} x ${a} = ${a*c} : ${c} x ${2} = ${2*c} : ${c} x ${3} = ${3*c} : ${c} x ${4} = ${4*c}`);
+//     console.table([(`${c} x ${a} = ${a*c}:${c} x ${2} = ${2*c} : ${c} x ${3} = ${3*c} : ${c} x ${4} = ${4*c}`),]);
 //     c++
-    
+
 // }
 
 
@@ -56,12 +56,37 @@
 
 //     welcomeMesege : function (){
 //         console.log(`${this.username}welcome to website`);
-        
+
 //     }
 // }
 
 
 // let input = require('readline-sync');
 // let n = input.questionInt('enter the value: ')
+
+
+// for (let i = 2; i <= 10; i++) {
+//   for (let j = 1; j <= 10; j++) {
+//     console.log(`${j} x ${i} = ${j * i}`);
+//   }
+//   console.log("----------"); // To separate each table
+// }
+
+
+// let a = 12;
+// let b = 18;
+
+// // Step 1: Find HCF (for LCM calculation)
+// let hcf;
+// for (let i = 1; i <= Math.min(a, b); i++) {
+//   if (a % i === 0 && b % i === 0) {
+//     hcf = i;
+//   }
+// }
+
+// // Step 2: Find LCM using formula
+// let lcm = (a * b) / hcf;
+
+// console.log("LCM of", a, "and", b, "is:", lcm);
 
 
