@@ -1,8 +1,17 @@
+const accountId = 12345;
+let accountEmail = 'bantu@ng.com';
+var accountPassword = '4321'
+accountCity = 'jaipur'
 
-let a = 45;
-let b = 'bhagat';
-let c = [1, 2, 3, 4, 5];
-let d = true;
+// accountId = '654'
+
+accountEmail = 'bhagat@ng.com'
+accountPassword = '741852'
+accountCity = 'dheli'
+
+console.log(accountId);
+console.table([accountEmail,accountId,accountCity])
+
 
 
 
