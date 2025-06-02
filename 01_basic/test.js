@@ -90,3 +90,137 @@
 // console.log("LCM of", a, "and", b, "is:", lcm);
 
 
+
+
+
+
+
+
+// let arr = [2, 3, 8, 9, 10, 15];
+// let count = 0;
+// let a = [];
+
+// for (let i = 0; i < arr.length; i++) {
+//   count++;
+
+//   if (count == 2) {
+//     a.push(arr[i]); // 2 count ke baad index ka element
+//     count = 0; // reset count
+//   }
+// }
+
+// console.log("Index 2 count matched elements:", a);
+
+
+
+
+
+// let arr = [3, 2, 5, 9, 11, 13, 15, 8, 1];
+// let count = 0;
+// let a = [];
+// let k = 3;
+// for (let i = 0; i < arr.length; i++) {
+//   count++;
+
+//   if (count == k) {
+//     a.push(arr[i]);      // element store karo
+//     arr[i] = 0;          // replace karo 0 se
+//     count = 0;           // reset count
+//   }
+
+// }
+
+// for (let j = 0; j < arr.length; j++) {
+
+//   if (arr[j] == 0) {
+//     continue;
+//   }
+//   else {
+//     count++
+//   }
+
+//   if (count == k) {
+//     a.push(arr[j]);     // element store karo
+//     arr[j] = 0;          // replace karo 0 se
+//     count = 0;           // reset count
+//   }
+// }
+
+// for (let j = 0; j < arr.length; j++) {
+
+//   if (arr[j] == 0) {
+//     continue;
+//   }
+//   else {
+//     count++
+//   }
+
+//   if (count == k) {
+//     a.push(arr[j]);     // element store karo
+//     arr[j] = 0;          // replace karo 0 se
+//     count = 0;           // reset count
+//   }
+// }
+
+
+// for (let j = 0; j < arr.length; j++) {
+
+//   if (arr[j] == 0) {
+//     continue;
+//   }
+//   else {
+//     count++
+//   }
+
+//   if (count == k) {
+//     a.push(arr[j]);     // element store karo
+//     arr[j] = 0;          // replace karo 0 se
+//     count = 0;           // reset count
+//   }
+
+// }
+
+// for (let j = 0; j < arr.length; j++) {
+
+//   if (arr[j] == 0) {
+//     continue;
+//   }
+//   else {
+//     count++
+//   }
+
+//   if (count == k) {
+//     a.push(arr[j]);     // element store karo
+//     arr[j] = 0;          // replace karo 0 se
+//     count = 0;           // reset count
+//   }
+
+//   // if(count!=0){
+//   //   a.push(arr[j])
+//   // }
+
+// }
+
+// for (let j = 0; j < arr.length; j++) {
+
+//   if (arr[j] == 0) {
+//     continue;
+//   }
+//   else {
+//     count++
+//   }
+
+//   if (count == k) {
+//     a.push(arr[j]);     // element store karo
+//     arr[j] = 0;          // replace karo 0 se
+//     count = 0;           // reset count
+//   }
+
+//   if (count != 0) {
+//     a.push(arr[j])
+//   }
+
+// }
+
+// // console.log("Modified array:", arr);
+// console.log("Pushed elements:", a);
