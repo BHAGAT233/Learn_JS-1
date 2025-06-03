@@ -140,9 +140,9 @@
 //   }
 
 //   if (count == k) {
-//     a.push(arr[j]);     // element store karo
-//     arr[j] = 0;          // replace karo 0 se
-//     count = 0;           // reset count
+//     a.push(arr[j]);     
+//     arr[j] = 0;          
+//     count = 0;           
 //   }
 // }
 
@@ -156,9 +156,9 @@
 //   }
 
 //   if (count == k) {
-//     a.push(arr[j]);     // element store karo
-//     arr[j] = 0;          // replace karo 0 se
-//     count = 0;           // reset count
+//     a.push(arr[j]);     
+//     arr[j] = 0;         
+//     count = 0;         
 //   }
 // }
 
@@ -173,9 +173,9 @@
 //   }
 
 //   if (count == k) {
-//     a.push(arr[j]);     // element store karo
-//     arr[j] = 0;          // replace karo 0 se
-//     count = 0;           // reset count
+//     a.push(arr[j]);    
+//     arr[j] = 0;         
+//     count = 0;           
 //   }
 
 // }
@@ -190,9 +190,9 @@
 //   }
 
 //   if (count == k) {
-//     a.push(arr[j]);     // element store karo
-//     arr[j] = 0;          // replace karo 0 se
-//     count = 0;           // reset count
+//     a.push(arr[j]);     
+//     arr[j] = 0;        
+//     count = 0;          
 //   }
 
 //   // if(count!=0){
@@ -211,9 +211,9 @@
 //   }
 
 //   if (count == k) {
-//     a.push(arr[j]);     // element store karo
-//     arr[j] = 0;          // replace karo 0 se
-//     count = 0;           // reset count
+//     a.push(arr[j]);     
+//     arr[j] = 0;          
+//     count = 0;           
 //   }
 
 //   if (count != 0) {
@@ -223,4 +223,4 @@
 // }
 
 // // console.log("Modified array:", arr);
-// console.log("Pushed elements:", a);
+// console.log("new array :", a);
