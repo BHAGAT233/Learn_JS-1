@@ -1,4 +1,5 @@
-or(let i in student){
-//     console.log(`${i}:${student[i]}`);
-    
-// }
+
+let kartik = Object.values(modulestraketr)
+console.log(kartik);
+
+Example with loop ;

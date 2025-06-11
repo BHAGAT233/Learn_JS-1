@@ -208,14 +208,14 @@
 //  Array of objects पर loop:  ;
 
 // let NavGrukulData = [
-//     {name: 'bantu', age: 19, city: 'bastar'},
-//     {name: 'dhurwa', age: 20, city: 'bijapur'},
-//     {name: 'sam', age: 18, city: 'dheli'},
+//   { name: 'bantu', age: 19, city: 'bastar' },
+//   { name: 'dhurwa', age: 20, city: 'bijapur' },
+//   { name: 'sam', age: 18, city: 'dheli' },
 // ];
 
 // // console.log(NavGrukulData[0].name);
 // // console.log(NavGrukulData[1].name);
-// // console.log(NavGrukulData[2].name, NavGrukulData[2].age, NavGrukulData[2].city);
+// console.log(NavGrukulData[2].name, NavGrukulData[2].age, NavGrukulData[2].city);
 
 // for(let i = 0; i<NavGrukulData.length; i++){
 //     console.log(`${i} : name: ${NavGrukulData[i].name}, age: ${NavGrukulData[i].age}, city: ${NavGrukulData[i].city}`);
@@ -313,8 +313,7 @@
 
 
 // let sam = [
-//     {
-//         name: 'bantu', age: 19, city:'bastar'},
+//     { name: 'bantu', age: 19, city:'bastar'},
 //     { name: 'chandu', age: 20, city: 'dheli' },
 //     { name: 'nandu', age: 21, city: 'raipur' }
 // ]
@@ -329,23 +328,218 @@
 
 //  Object ke Methods // Javascript me Objects Methods ke bare me study karna ;
 
+//  Object.keys(obj) => Object की सारी keys ko ek array banata hain. ;
 
-let a = {
-    name : 'bhagat',
-    age :19,
-    school : 'NG',
-    class: 'module 04',
-    city: 'geedam',
-    arr: [1,2,3,4],
-}
+// let school =  {
+//     name: 'bantu',
+//     age: 19,
+//     city: 'raipur',
+// }
 
-// console.log(Object.keys(a)); // [ 'name', 'age', 'school', 'class', 'city' ]
-// console.log(Object.values(a));  // Output: ["Bantu", 19, "Bastar"]
-console.log(Object.entries(a)); // Output: [["name", "Bantu"], ["age", 19], ["city", "Bastar"]]
-console.log(a.hasOwnProperty("age")); // true
-console.log(a.hasOwnProperty('arr1')); // false
+// console.log(Object.values(school));
 
 
-let sam = {name: 'bhagat', age: 19, city: 'geedam', class: 'module 04'}
-let sam1 = {a}
+// let sam = {
+//     name : 'bhagat',
+//     age : 19,
+//     class: 'module 04',
+//     school : 'Ng'
+// }
+
+// console.log(Object.keys(sam));
+
+// Example with loop: ;
+
+// let  studentData = {
+//     name : 'bantu',
+//     age: 19,
+//     city: 'dheli',
+//     class: 'module 04',
+//     school : 'navgurukul',
+// }
+
+// let keys = Object.keys(studentData);
+// for(let i = 0; i<keys.length; i++){
+//     console.log(`${keys[i]}: ${studentData[keys[i]]}`);
+
+// }
+
+// let student = {
+//   name: "Bantu",
+//   age: 19,
+//   course: "MERN Stack",
+//   batch: "May 2025"
+// };
+
+// let N = Object.keys(student)
+// console.log(N);
+
+// for(let i = 0; i<N.length; i++){
+//     console.log(`${N[i]}: ${student[N[i]]}`);
+
+// }
+
+
+
+
+// let sam = {name: 'bhagat', age: 19, city: 'geedam', class: 'module 04'}
+// let sam1 = {address: 'barsur', Pincode: 494441, village: 'jawanga'}
+// let sam2 = {friend: 'sachin', }
+// sam.age = 20;
+// delete sam.class
+
+// console.log(Object.assign({}, sam, sam1, sam2));
+
+//-------------------------------------------------------------------------------------------------//
+
+// Object.values(obj) => ye maithod kisi bhi object ki sari valuais ko ek array mein nikaal kar deta hai.;
+
+// let studentDAta = {
+//     name : 'kartik',
+//     age : 17,
+//     city : 'geedam',
+//     class: 'module 04',
+//     picode: 494441,
+// }
+
+// console.log(Object.values(studentDAta)); // [ 'kartik', 17, 'geedam', 'module 04', 494441 ]
+
+// example 02 ;
+
+// let modulestraketr = {
+//     name : 'kartik',
+//     age: 17,
+//     class: 'module 04',
+//     housename: 'malhar',
+//     course: 'MERN Stack',
+// }
+
+// let kartik = Object.values(modulestraketr)
+// console.log(kartik);
+
+
+// Example with loop ;
+
+// let student = {
+//     name: 'bantu',
+//     age: 19,
+//     city: 'Dantewada',
+//     course: 'MERN Stack',
+//     class: 'module 04',
+//     address: 'navgurukul'
+// }
+
+// let N = Object.values(student);
+
+// for(let i = 0; i<N.length; i++){
+//     console.log(N[i]);
+
+// }
+
+// Example 03 ;
+
+// let product = {
+//   name: "Mobile Phone",
+//   brand: "Samsung",
+//   price: 14999,
+//   available: true
+// };
+
+// let arr = Object.values(product);
+// console.log(arr);
+
+// for(let i = 0; i<arr.length; i++){
+//     console.log(arr[i]);
+
+// }
+
+//-------------------------------------------------------------------------------------------------------//
+
+// hasOwnProperty() => ye method check karta hai ki kohi key (property) उस object ke अंदर hai ya nahi aur yah true / false return karta hain। 
+
+// let student = {
+//   name: "Bantu",
+//   age: 19,
+//   city: 'geedam',
+// };
+
+// console.log(student.hasOwnProperty("name"));   // true  
+// console.log(student.hasOwnProperty("city")); // false
+
+// Example 02 ;
+
+// let student = {
+//   name: "Bantu",
+//   age: 19
+// };
+
+// if (student.hasOwnProperty("age")) {
+//   console.log("Student ki age hai:", student.age);
+// } else {
+//   console.log("Student ki age nahi di gayi");
+// }
+
+
+//03. Array ko Object me convert karna ; 
+
+// let arr = [1, 'Rahul', 2, 'Bhagat', 3, 'Bantu', 4, 'Kartik', 5, 'Sachin', 6, 'sam', 7, 'Ram'];
+
+// let obj = {};
+
+// for (let i = 0; i < arr.length; i += 2) {
+//   obj[arr[i]] = arr[i + 1];
+// }
+
+// console.log(obj);
+
+// let a = Object.assign({}, arr)
+// console.log(a);
+
+
+//04.  Object.entries(obj) => yeh method object ko array of [key, value] pairs main badal deta hain।;
+
+// Example 01 =>
+
+//   let student = {
+//   name: "Bantu",
+//   age: 19,
+//   course: "MERN Stack",
+//   adress: {
+//     village: 'jawanga',
+//     pincode: 494441,
+//     city: 'geedam',
+//     district: 'Dantewada',
+//   }
+
+// };
+
+// console.log(Object.entries(student));
+
+// Example with loop 
+
+
+// let student = {
+//   name: "Bantu",
+//   age: 19,
+//   course: "MERN Stack",
+//   city: 'raipur',
+//   village: 'Jawanga',
+//   arr: [1, 2, 3, 4, 5],
+//   address: {
+//     name: 'bhagat',
+//     class: 'module 04'
+//   }
+// };
+
+// let a = Object.entries(student);
+
+// for (let i = 0; i < a.length; i++) {
+
+//   console.log(a[i][0] + ': ' + a[i][1]);
+
+// }
+
+
+
+
 
