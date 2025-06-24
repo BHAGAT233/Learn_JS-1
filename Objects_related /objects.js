@@ -1,4 +1,4 @@
-// find Square numbers give by user 
+// // find Square numbers give by user 
 // let int = require('readline-sync');
 // let a = int.questionInt('Enter the value: ')
 // let b = false;
@@ -20,7 +20,6 @@
 
 
 // let a = 'The quick brown fox jumps over the lazy dog';
-
 // function Pangram(a) {
 //     a = a.toLowerCase();
 //     let b = 'abcdefghijklmnopqrstuvwxyz';
@@ -47,7 +46,7 @@
 
 //-----------------------------------------------------------------------------------------//
 
-// Objects practice question :
+// // Objects practice question :
 // let bhagat = {
 //     name:'bantu',
 //     age : 19,
@@ -76,6 +75,7 @@
 
 // console.log(student.name); // Output: Bantu
 // console.log(student.age);  // Output: 19
+// console.log(student['class']);
 //  student.age = 20 ;
 // console.log(student);
 
