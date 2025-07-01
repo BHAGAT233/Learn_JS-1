@@ -282,12 +282,18 @@
 
 
 
-let arr = [1, 2, 3, 4, 5, 10, 54, 11, 30, 50];
-let t = 2
-for(let i = 0; i<arr.length; i++){
-    console.log(arr[i+t]);
+// let arr = [1, 2, 3, 4, 5, 10, 54, 11, 30, 50];
+// let n = arr.length;
+// let t = 2
+// let arr1 = []
+// for(let i = 0; i<arr.length; i++){
+//       arr1[i]  = arr[(i+t)%n]
     
-}
+// }
+// console.log(arr1);
+
+
+
 
 
 

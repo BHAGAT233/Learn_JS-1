@@ -517,7 +517,6 @@
 
 // Example with loop 
 
-
 // let student = {
 //   name: "Bantu",
 //   age: 19,
@@ -540,7 +539,12 @@
 // }
 
 
-
 //---------------------------------------------------------------------------------------------//
 
+
+// function sum(a, b, c) {
+//   return a + b + c;
+// }
+// const numbers = [1, 2, 3];
+// console.log(sum(...numbers)); // Output: 6
 
