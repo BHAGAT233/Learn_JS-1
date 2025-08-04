@@ -1,4 +1,5 @@
 // // find Square numbers give by user 
+
 // let int = require('readline-sync');
 // let a = int.questionInt('Enter the value: ')
 // let b = false;
@@ -18,6 +19,7 @@
 
 //------------------------------------------------------------------------------------//
 
+// A pangram is a sentence that includes every letter of the alphabet at least once ;
 
 // let a = 'The quick brown fox jumps over the lazy dog';
 // function Pangram(a) {
@@ -41,12 +43,12 @@
 
 //     return 'YES';
 // }
-
 // console.log(Pangram(a));
 
 //-----------------------------------------------------------------------------------------//
 
 // // Objects practice question :
+
 // let bhagat = {
 //     name:'bantu',
 //     age : 19,
@@ -69,15 +71,16 @@
 //   name: "Bantu",
 //   age: 19,
 //   class: `10th`,
-//   city: 'bastar',
+//   'city': 'bastar',
 //   school: 'navgurukul'
 // };
 
 // console.log(student.name); // Output: Bantu
 // console.log(student.age);  // Output: 19
 // console.log(student['class']);
+// console.log(student.city);
 //  student.age = 20 ;
-// console.log(student);
+// // console.log(student);
 
 
 //-----------------------------------------------------------------------------------//
@@ -547,4 +550,9 @@
 // }
 // const numbers = [1, 2, 3];
 // console.log(sum(...numbers)); // Output: 6
+
+
+//--------------------------------------------CRUD Operations----------------------;
+
+
 

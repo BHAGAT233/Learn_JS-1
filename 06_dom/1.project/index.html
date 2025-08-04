@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .conatiner {
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            gap: 23px;
+
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            height: 60px;
+            width: 60px;
+            padding: 25px 5px 0 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        #gray {
+            background-color: gray;
+        }
+        #white {
+            background-color: white;
+        }
+        #blue {
+            background-color: blue;
+        }
+        #yellow {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    Given 5 boxes, Assign a random color and a random background  to each box DOM consapts ;
+    -->
+    <div class="conatiner">
+        <span class="box" id="gray">gray</span>
+        <span class="box" id="white">Box 2</span>
+        <span class="box" id="blue">Box 3</span>
+        <span class="box" id="yellow">Box 4</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
