@@ -1,5 +1,5 @@
 let randomNumber = parseInt(Math.random() * 100 + 1);
-
+// console.log("Random number is:", randomNumber);
 let submit = document.querySelector('#subt');
 let userInput = document.querySelector('#guessField');
 let guessSlot = document.querySelector('.guesses');

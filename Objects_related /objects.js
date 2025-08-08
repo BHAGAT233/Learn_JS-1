@@ -21,29 +21,29 @@
 
 // A pangram is a sentence that includes every letter of the alphabet at least once ;
 
-// let a = 'The quick brown fox jumps over the lazy dog';
-// function Pangram(a) {
-//     a = a.toLowerCase();
-//     let b = 'abcdefghijklmnopqrstuvwxyz';
+let a = 'The quick brown fox jumps over the lazy dog';
+function Pangram(a) {
+    a = a.toLowerCase();
+    let b = 'abcdefghijklmnopqrstuvwxyz';
 
-//     for (let i = 0; i < b.length; i++) {
-//         let found = false;
+    for (let i = 0; i < b.length; i++) {
+        let found = false;
 
-//         for (let j = 0; j < a.length; j++) {
-//             if (b[i] === a[j]) {
-//                 found = true;
-//                 break;
-//             }
-//         }
+        for (let j = 0; j < a.length; j++) {
+            if (b[i] === a[j]) {
+                found = true;
+                break;
+            }
+        }
 
-//         if (!found) {
-//             return 'NO';
-//         }
-//     }
+        if (!found) {
+            return 'NO';
+        }
+    }
 
-//     return 'YES';
-// }
-// console.log(Pangram(a));
+    return 'YES';
+}
+console.log(Pangram(a));
 
 //-----------------------------------------------------------------------------------------//
 

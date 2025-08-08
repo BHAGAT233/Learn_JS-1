@@ -288,13 +288,53 @@
 // let arr1 = []
 // for(let i = 0; i<arr.length; i++){
 //       arr1[i]  = arr[(i+t)%n]
-    
+
 // }
 // console.log(arr1);
 
 
 
+// let a = 'The quick brown fox jumps over the lazy dog';
 
+// function pangram(a) {
+//     a = a.toLowerCase();
+//     let b = 'abcdefghijklmnopqrstuvwxyz';
+//     found = false;
+//     for (let i = 0; i < b.length; i++) {
+//         // console.log(b[i]);
+//         for(let j = 0; j<a.length; j++){
+//             if(a[i] == b[i]){
+//                 found = true;
+//                 break
+//             }
+            
+//         }
+//     }
+//     if(!found){
+//         return 'yes'
+//     }else{
+//         return 'no'
+//     }
+//     // return
+// }
+// console.log(pangram(a));
+
+
+
+// function isPangram(str) {
+//     str = str.toLowerCase();
+//     let set = new Set();
+
+//     for (let char of str) {
+//         if (char >= 'a' && char <= 'z') {
+//             set.add(char);
+//         }
+//     }
+
+//     return set.size === 26 ? "yes" : "no";
+// }
+
+// console.log(isPangram('The quick brown fox jumps over the lazy dog')); // yes
 
 
 
