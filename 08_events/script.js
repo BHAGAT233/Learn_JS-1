@@ -21,7 +21,7 @@ btn.addEventListener('click', function () {
 let typed = new Typed('.text', {
     strings: ['coder', 'Archery playear', 'web developer'],
     typeSpeed: 150,
-    backSpeed:150,
+    backSpeed:100,
     loop: true
 })
 
