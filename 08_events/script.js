@@ -1,9 +1,7 @@
 let btn = document.getElementById('myBtn')
 let a = document.querySelector('body')
 // console.log(btn);
-
 let flag = 0;
-
 btn.addEventListener('click', function () {
     if (flag == 0) {
         a.style.backgroundColor = 'yellow'
