@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+}
+.div{
+    text-align: center;
+    padding: 10px;
+}
+.div img{
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50rem;
+    border: 2px yellow solid;
+}
+.div h2{
+    font: 2rem sans-serif;
+}
